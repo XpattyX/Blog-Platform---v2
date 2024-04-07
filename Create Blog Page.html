@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gogogo | Create Blog Page</title>
+
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Lexend+Mega&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        <div class="container">
+            <div class="nav-grid">
+                <div class="nav-grid-item">
+                    <img src="img\logo.png" alt="gogogo logo">
+                    <ul>
+                        <li><a href="Home page.html">HOME</a></li>
+                        <li><a href="Category Page.html">CATEGORY</a></li>
+                    </ul>
+                </div>
+                <form id="search-form" class="nav-grid-item">
+                    <input type="search" placeholder="Search" id="search-input">
+                    <button type="submit" style="display: none;"></button>
+                </form>
+                <div class="nav-grid-item">
+                    <a href="#">Sign Up</a>
+                    <button>Sign In</button>
+                </div>
+            </div>
+        </div>        
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="Write-blog">
+                <h1>Write your blog</h1>
+                <label for="Topic">Topic</label>
+                <textarea name="Topic" id="Topic" cols="30" rows="1" placeholder="This is topic."></textarea>
+                <label for="Content">Content</label>
+                <textarea name="Content" id="Content" cols="30" rows="20" placeholder="This is content."></textarea>
+                <label for="Photo">Photo</label>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <div class="align">
+                    <button type="submit">Post</button>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-grid-item">
+                    <img src="img\logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur. Turpis pellentesque iaculis habitant at enim. Aliquet fringilla bibendum nulla vitae risus. ipsum dolor sit amet consectetur.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-grid-item">
+                    <h3>Home</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-item">
+                    <h3>Contact Us</h3>
+                    <p>+66 086-123-4567</p>
+                    <p>Email : ertyuo@fghd.com</p>
+                </div>
+            </div>
+            
+
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

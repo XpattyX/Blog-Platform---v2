@@ -1,0 +1,96 @@
+{
+"blogs": [
+    {
+      "id": 1,
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "category": "Sea",
+      "content": "Lorem ipsum...",
+      "author": "Leanne Graham",
+      "imageSrc": "img/Home page/Rectangle 41.png",
+      "views": 1200
+    },
+    {
+      "id": 2,
+      "title": "nesciunt quas odio",
+      "category": "Mountain",
+      "content": "Lorem ipsum...",
+      "author": "Jane Doe",
+      "imageSrc": "img/Home page/Rectangle 22.png",
+      "views": 800
+    },
+    {
+        "id": 3,
+        "title": "eveniet quod temporibus",
+        "category": "Museums",
+        "content": "Lorem ipsum...",
+        "author": "Ervin Howell",
+        "imageSrc": "img/Home page/Rectangle 21.png",
+        "views": 600
+      },
+      {
+        "id": 4,
+        "title": "eum et est occaecati",
+        "category": "Festival",
+        "content": "Lorem ipsum...",
+        "author": "Clementine Bauch",
+        "imageSrc": "img/Home page/Rectangle 23.png",
+        "views": 1500
+      },
+      {
+        "id": 5,
+        "title": "optio molestias id quia eum",
+        "category": "Cafe",
+        "content": "Lorem ipsum...",
+        "author": "Patricia Lebsack",
+        "imageSrc": "img/Home page/Rectangle 24.png",
+        "views": 900
+      },
+      {
+        "id": 6,
+        "title": "optio molestias id quia eum",
+        "category": "clubs",
+        "content": "Lorem ipsum...",
+        "author": "Kurtis Weissnat",
+        "imageSrc": "img/Home page/Rectangle 25.png",
+        "views": 900
+      },
+      {
+        "id": 7,
+        "title": "optio molestias id quia eum",
+        "category": "Adventure",
+        "content": "Lorem ipsum...",
+        "author": "Glenna Reichert",
+        "imageSrc": "img/Home page/Rectangle 39.png",
+        "views": 900
+      },
+      {
+        "id": 8,
+        "title": "optio molestias id quia eum",
+        "category": "Sea",
+        "content": "Lorem ipsum...",
+        "author": "Clementina DuBuque",
+        "imageSrc": "img/Home page/Rectangle 42.png",
+        "views": 900
+      },
+      {
+        "id": 9,
+        "title": "optio molestias id quia eum",
+        "category": "Camping",
+        "content": "Lorem ipsum...",
+        "author": "Patricia Lebsack",
+        "imageSrc": "img/Home page/Rectangle 9.png",
+        "views": 900
+      },
+      {
+        "id": 10,
+        "title": "optio molestias id quia eum",
+        "category": "Adventure",
+        "content": "Lorem ipsum...",
+        "author": "Anucha hahaha",
+        "imageSrc": "img/Home page/Rectangle 10.png",
+        "views": 900
+      }
+    
+      
+  ]
+}
